@@ -1,19 +1,30 @@
 package uebung3;
 
-class Cow {
-    private String name ;
-    static private int cowCounter = 0 ;
+public class Cow {
 
-    public Cow(String name) {
-        this.name = name ;
-        cowCounter++ ;
+    private String name ;
+    private static int cowCount = 0 ;
+
+    public Cow() {
+        this.setName("NO NAME PROVIDED");
+        cowCount ++ ;
     }
+
+    public Cow(String name ) {
+        this.setName(name);
+        cowCount ++ ;
+    }
+
 
     public String getName() {
-        return name ;
+        return name;
     }
 
-    public static int getCowCount() {
-        return cowCounter;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public static int getCowCount(){
+        return cowCount;
     }
 }

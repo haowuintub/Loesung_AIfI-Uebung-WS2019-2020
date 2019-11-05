@@ -1,6 +1,6 @@
 package uebung4;
 
-public class Farm {
+class Farm {
     public static void main(String[] args) {
 
 

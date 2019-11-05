@@ -1,8 +1,8 @@
 package uebung4;
 
-public class Farmer {
+class Farmer {
 
-    public void feedCow(Cow cow) {
+    void feedCow(Cow cow) {
 
         cow.toggleHunger();
 

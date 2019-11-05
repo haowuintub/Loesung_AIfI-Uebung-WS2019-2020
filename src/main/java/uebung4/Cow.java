@@ -13,17 +13,17 @@ public class Cow {
     }
 
     // Getters & Setters
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    void setName(String name) {
         this.name = name;
     }
 
-    public boolean isHungry() { return hungry ; }
+    boolean isHungry() { return hungry ; }
 
-    public static int getCowCount(){
+    static int getCowCount(){
         return cowCount;
     }
 

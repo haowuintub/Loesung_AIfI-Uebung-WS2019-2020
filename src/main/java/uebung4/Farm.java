@@ -1,7 +1,7 @@
 package uebung4;
 
-public class Farm {
-    public static void main(String[] args) {
+class Farm {
+    static void main(String[] args) {
 
 
         // From Uebung 3

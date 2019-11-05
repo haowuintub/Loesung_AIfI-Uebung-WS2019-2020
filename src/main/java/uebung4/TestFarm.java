@@ -3,10 +3,10 @@ package uebung4;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestFarm {
+class TestFarm {
 
     @Test
-    public void testFarm(){
+    void testFarm(){
         // JUnit Test Beispiel:
         int y = 2 + 2 ;
         Assert.assertEquals(4, y); // assertEquals( SOLL-Wert, IST-Wert ) ;

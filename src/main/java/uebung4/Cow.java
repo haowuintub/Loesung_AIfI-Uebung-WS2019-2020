@@ -1,26 +1,26 @@
 package uebung4;
 
-public class Cow {
+class Cow {
 
     private static int cowCount = 0 ;
     private String name ;
 
     // Constructor
-    public Cow(String name ) {
+    Cow(String name) {
         this.setName(name);
         cowCount ++ ;
     }
 
     // Getters & Setters
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
-    public static int getCowCount(){
+    static int getCowCount(){
         return cowCount;
     }
 }

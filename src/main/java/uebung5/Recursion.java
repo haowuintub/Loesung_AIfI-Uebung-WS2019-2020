@@ -9,8 +9,8 @@ class Recursion {
         long facIterative = factorialIterative(n);
         System.out.println(n + "! (iterative) = " + facIterative);
 
-//        long facRecursive = factorialRecursive(n);
-//        System.out.println(n + "! (recursive) = " + facRecursive);
+        long facRecursive = factorialRecursive(n);
+        System.out.println(n + "! (recursive) = " + facRecursive);
 
     }
 
@@ -27,13 +27,13 @@ class Recursion {
 
     // Recursive Factorial
 
-//    static long factorialRecursive(long n) {
-//        if () { //Abbruchbedingung
-//            // Terminierung
-//        }
-//        } else {
-//            // Rekursive Aufruf
-//        }
-//    }
+    static long factorialRecursive(long n) {
+        if (n == 1) { //Abbruchbedingung
+            return 1;
+        }
+     else {
+            return factorialRecursive(n-1) * n ;
+        }
+    }
 
 }

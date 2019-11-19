@@ -8,7 +8,7 @@ import java.awt.Color;
 
 public class Breeder extends DisposableBug {
 
-    public Breeder() {
+    Breeder() {
         this.setColor(Color.RED);
     }
 

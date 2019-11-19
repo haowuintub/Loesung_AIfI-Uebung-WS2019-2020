@@ -15,7 +15,7 @@ class Recursion {
     }
 
     // Iterative Factorial
-    static long factorialIterative(long n){
+    private static long factorialIterative(long n){
         long fac = 1 ;
         for (int i = 1; i <= n; i++) {
             fac = fac * i;
@@ -26,7 +26,7 @@ class Recursion {
 
 
     // Recursive Factorial
-    static long factorialRecursive(long n) {
+    private static long factorialRecursive(long n) {
         if (n == 1) {
             return 1;
         } else {
@@ -39,7 +39,7 @@ class Recursion {
 
 //     Recursive Factorial (with comments for individual steps)
 
-//    static long factorialRecursive(long n) {
+//    private static long factorialRecursive(long n) {
 //        System.out.println(" calling factorialRecursive(" + n + ")");
 //        if (n == 1) {
 //            System.out.println("factorialRecursive(" + n + ") = 1");

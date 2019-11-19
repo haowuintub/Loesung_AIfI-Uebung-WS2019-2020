@@ -4,11 +4,11 @@ import gridworld.framework.actor.Bug;
 
 import java.awt.Color;
 
-public class DisposableBug extends Bug {
+class DisposableBug extends Bug {
 
     private int steps = 1 ;
 
-    public DisposableBug() {
+    DisposableBug() {
         super(Color.BLUE);
     }
 

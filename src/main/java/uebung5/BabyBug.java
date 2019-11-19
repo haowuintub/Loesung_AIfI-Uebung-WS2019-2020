@@ -7,11 +7,11 @@ import gridworld.framework.grid.Location;
 
 import java.awt.*;
 
-public class BabyBug extends DisposableBug {
+class BabyBug extends DisposableBug {
 
     private int flowersEaten = 0 ;
 
-    public BabyBug() {
+    BabyBug() {
         this.setColor(Color.YELLOW);
     }
 
@@ -24,7 +24,7 @@ public class BabyBug extends DisposableBug {
 
         if (flowersEaten >= 3) {
             Location loc = this.getLocation() ;
-            Grid gr = this.getGrid() ;
+            Grid<Actor> gr = this.getGrid() ;
             this.removeSelfFromGrid();
             if (Math.random() <= 0.5) {
                 DisposableBug bug = new DisposableBug();

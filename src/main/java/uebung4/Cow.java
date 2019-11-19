@@ -1,13 +1,13 @@
 package uebung4;
 
-public class Cow {
+class Cow {
 
     private static int cowCount = 0 ;
     private String name ;
     private boolean hungry = true;
 
     // Constructor
-    public Cow(String name ) {
+    Cow(String name ) {
         this.setName(name);
         cowCount ++ ;
     }
@@ -29,11 +29,11 @@ public class Cow {
 
 
     // Methods
-    public void toggleHunger() {
+    void toggleHunger() {
         this.hungry = ! this.hungry;
     }
 
-    public Calf giveBirth(String calfName) {
+    Calf giveBirth(String calfName) {
 
         return new Calf(calfName, this);
 

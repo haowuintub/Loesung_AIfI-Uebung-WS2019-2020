@@ -1,6 +1,6 @@
 package uebung3;
 
-public class Farm {
+class Farm {
     public static void main(String[] args) {
 
         Cow cow1 = new Cow("Berta");

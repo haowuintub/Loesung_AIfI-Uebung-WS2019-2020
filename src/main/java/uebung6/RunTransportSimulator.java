@@ -63,17 +63,13 @@ public class RunTransportSimulator {
 
         }
 
-
         // TransportSimulator
-
         TransportSimulator mySim = new TransportSimulator(movableFleet);
+
         mySim.addVehicle(new Elevator("elev2", 100));
         mySim.addVehicle(new Ship("ship2", 100, 100));
         mySim.addVehicle(new Helicopter("heli2", 100, 100, 100));
         mySim.simulate(10);
-
-
-
 
     }
 }

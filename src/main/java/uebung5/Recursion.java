@@ -15,7 +15,7 @@ class Recursion {
     }
 
     // Iterative Factorial
-    static long factorialIterative(long n){
+    private static long factorialIterative(long n){
         long fac = 1 ;
         for (int i = 1; i <= n; i++) {
             fac = fac * i;

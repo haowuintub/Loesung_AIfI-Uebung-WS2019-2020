@@ -114,5 +114,11 @@ public class RunCollections {
         for (Map.Entry<String, Person> entry : peopleMap.entrySet()) {
             System.out.println("K: " + entry.getKey() + ", V: " + entry.getValue());
         }
+
+        System.out.println(peopleMap.containsKey("Charles"));
+        peopleMap.remove("Charles");
+        System.out.println(peopleMap.containsKey("Charles"));
+
+        peopleMap.get("Grantelbart");
     }
 }

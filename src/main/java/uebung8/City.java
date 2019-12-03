@@ -12,24 +12,40 @@ public class City implements Comparable<City> {
         this.population = population;
     }
 
+
     @Override
     public String toString() {
         return this.name + ", " + this.country + ", population: " + this.population;
     }
 
     // compareTo() for population
+    public int compareTo(City o) {
+        if (this.population > o.population) {
+            return 1 ;
+        } else if (this.population == o.population) {
+            return 0 ;
+        } else {
+            return -1 ;
+        }
+    }
+
+//    compareTo() for name
 //    public int compareTo(City o) {
-//        if (this.population > o.population) {
-//            return 1 ;
-//        } else if (this.population == o.population) {
-//            return 0 ;
-//        } else {
-//            return -1 ;
-//        }
+//        return this.name.compareTo(o.name);
 //    }
 
-//     compareTo() for name
-    public int compareTo(City o) {
-        return this.name.compareTo(o.name);
+
+    String getName() {
+        return name;
     }
+
+    String getCountry() {
+        return country;
+    }
+
+    int getPopulation() {
+        return population;
+    }
+
+
 }

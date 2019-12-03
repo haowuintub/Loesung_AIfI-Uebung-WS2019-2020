@@ -3,9 +3,12 @@ package uebung8;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RunCities {
+class RunCities {
 
     public static void main(String[] args) {
+
+        // Aendere das folegende nicht:
+
         City c1 = new City("Hamburg", "Germany", 1800000);
         City c2 =new City("Birmingham", "UK", 1100000);
         City c3 = new City("Milan", "Italy", 1300000);
@@ -31,7 +34,7 @@ public class RunCities {
         cityList.add(c10);
         cityList.add(c11);
 
-
+        // Hier kommt dein Code hin:
 
     }
 }

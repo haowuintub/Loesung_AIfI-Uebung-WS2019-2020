@@ -1,6 +1,6 @@
 package uebung8;
 
-public class City {
+public class City implements Comparable<City> {
 
     private String name ;
     private String country ;
@@ -14,7 +14,22 @@ public class City {
 
     @Override
     public String toString() {
-        return "" ; // Fill this out!
+        return this.name + ", " + this.country + ", population: " + this.population;
     }
 
+    // compareTo() for population
+//    public int compareTo(City o) {
+//        if (this.population > o.population) {
+//            return 1 ;
+//        } else if (this.population == o.population) {
+//            return 0 ;
+//        } else {
+//            return -1 ;
+//        }
+//    }
+
+//     compareTo() for name
+    public int compareTo(City o) {
+        return this.name.compareTo(o.name);
+    }
 }

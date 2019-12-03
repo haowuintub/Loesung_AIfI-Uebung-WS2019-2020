@@ -17,4 +17,16 @@ public class City {
         return "" ; // Fill this out!
     }
 
+
+    String getName() {
+        return name;
+    }
+
+    String getCountry() {
+        return country;
+    }
+
+    int getPopulation() {
+        return population;
+    }
 }

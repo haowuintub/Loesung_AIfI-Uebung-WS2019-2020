@@ -1,11 +1,8 @@
 package uebung9;
 
-import java.util.Comparator;
-
-public class Person implements Comparable<Person>{
+class Person implements Comparable<Person>{
     private String name ;
     private int birthYear;
-    private Doctor treatingDoctor;
 
     Person(String name, int birthYear)
 
@@ -39,12 +36,12 @@ public class Person implements Comparable<Person>{
 
     @Override
     public boolean equals(Object o) {
-        Person oPerson = (Person) o ;
-        if (this.getBirthYear() == oPerson.getBirthYear() && this.getName().equals(oPerson.getName())) {
-            return true ;
+        if (o instanceof Person) {
+            Person oPerson = (Person) o ;
+            return this.getBirthYear() == oPerson.getBirthYear() && this.getName().equals(oPerson.getName());
         }
         return false ;
-    }
+        }
 
     @Override
     public int compareTo(Person o) {
@@ -55,9 +52,5 @@ public class Person implements Comparable<Person>{
         } else {
             return -1;
         }
-    }
-
-    void setTreatingDoctor(Doctor doctor) {
-        this.treatingDoctor = doctor ;
     }
 }

@@ -1,6 +1,6 @@
 package uebung9;
 
-public class Doctor extends Person implements Coworker {
+class Doctor extends Person implements Coworker {
 
     private int moneyInBank = 0 ;
     private int treatedPatients = 0;

@@ -1,7 +1,5 @@
 package uebung9;
 
-import gridworld.framework.actor.Bug;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
@@ -12,16 +10,15 @@ public class Reception {
     private Queue<Person> waitList = new LinkedList<>();
     private Set<Person> file = new TreeSet<>() ;
 
-    void addToWaitList(Person person){
+    private void addToWaitList(Person person){
         if (!waitList.contains(person)) {
             waitList.add(person);
         }
         file.add(person);
     }
 
-    void visitDoctor(Doctor doctor) {
-        Person person = waitList.poll();
-        person.setTreatingDoctor(doctor);
+    private void visitDoctor(Doctor doctor) {
+        waitList.poll();
         doctor.treatPatient() ;
         file.add(doctor);
     }

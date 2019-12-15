@@ -26,14 +26,30 @@ class Recursion {
 
 
     // Recursive Factorial
-
-    static long factorialRecursive(long n) {
-        if (n == 1) { //Abbruchbedingung
+    private static long factorialRecursive(long n) {
+        if (n == 1) {
             return 1;
-        }
-     else {
-            return factorialRecursive(n-1) * n ;
+        } else {
+            return factorialRecursive(n - 1) * n;
         }
     }
+
+
+
+
+//     Recursive Factorial (with comments for individual steps)
+
+//    private static long factorialRecursive(long n) {
+//        System.out.println(" calling factorialRecursive(" + n + ")");
+//        if (n == 1) {
+//            System.out.println("factorialRecursive(" + n + ") = 1");
+//            return 1;
+//        } else {
+//            long ll = factorialRecursive(n - 1) * n;
+//            System.out.println("factorialRecursive(" + n + ") = " + ll);
+//
+//            return ll;
+//        }
+//    }
 
 }

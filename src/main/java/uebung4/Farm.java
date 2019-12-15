@@ -1,7 +1,7 @@
 package uebung4;
 
 class Farm {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
 
         // From Uebung 3
@@ -16,10 +16,19 @@ class Farm {
         System.out.println("Number of cows on farm: " + Cow.getCowCount());
 
 
-        // Uebung 4, Aufgabe 1a
+        // Uebung 4
 
+        Farmer farmer = new Farmer();
+
+        System.out.println(cow1.getName() + " is hungry: " + cow1.isHungry());
+
+        farmer.feedCow(cow1);
+
+        System.out.println(cow1.getName() + " is hungry: " + cow1.isHungry());
 
         // Uebung 4, Aufgabe 1b.
 
+        Calf calf1 = cow1.giveBirth("Johnny");
+        System.out.println(calf1.getName());
     }
 }

@@ -4,9 +4,10 @@ class Cow {
 
     private static int cowCount = 0 ;
     private String name ;
+    private boolean hungry = true;
 
     // Constructor
-    Cow(String name) {
+    Cow(String name ) {
         this.setName(name);
         cowCount ++ ;
     }
@@ -16,11 +17,25 @@ class Cow {
         return name;
     }
 
-    private void setName(String name) {
+    void setName(String name) {
         this.name = name;
     }
 
+    boolean isHungry() { return hungry ; }
+
     static int getCowCount(){
         return cowCount;
+    }
+
+
+    // Methods
+    void toggleHunger() {
+        this.hungry = ! this.hungry;
+    }
+
+    Calf giveBirth(String calfName) {
+
+        return new Calf(calfName, this);
+
     }
 }

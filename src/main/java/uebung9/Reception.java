@@ -52,7 +52,6 @@ public class Reception {
             System.out.println(i);
         }
 
-
         System.out.println(doc1.getMoneyInBank());
         doc1.paySalary();
         System.out.println(doc1.getMoneyInBank());
@@ -60,11 +59,5 @@ public class Reception {
         for (Person i : reception.file) {
             System.out.println(i);
         }
-
-
-
     }
-
-
-
 }

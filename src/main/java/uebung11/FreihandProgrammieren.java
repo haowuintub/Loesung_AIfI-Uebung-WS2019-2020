@@ -20,7 +20,7 @@ class FreihandProgrammieren {
         for (Double num : myNumbers) {
             sum += num;
         }
-
-        return sum.toString() ;
+        Double result = sum/myNumbers.size() ;
+        return  result.toString();
     }
 }

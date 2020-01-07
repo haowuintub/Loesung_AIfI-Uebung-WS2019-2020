@@ -12,7 +12,7 @@ class RunFinances {
 
         System.out.println("balance: " + bankAccount.getBalance());
 
-        bankAccount.withdrawMoney(400.);
+        bankAccount.withdrawMoney(400. );
 
         System.out.println("balance: " + bankAccount.getBalance());
 

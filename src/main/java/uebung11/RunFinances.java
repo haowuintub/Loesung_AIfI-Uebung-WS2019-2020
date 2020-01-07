@@ -1,6 +1,6 @@
 package uebung11;
 
-public class RunFinances {
+class RunFinances {
 
     public static void main(String[] args) {
 

@@ -2,20 +2,27 @@ package uebung11;
 
 public class RunFinances {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-        BankAccount bankAccount = new BankAccount();
+        BankAccount jakobsBankAccount = new BankAccount();
 
-        System.out.println("balance: " + bankAccount.getBalance());
+        System.out.println("balance: " + jakobsBankAccount.getBalance());
 
-        bankAccount.addMoney(150.);
 
-        System.out.println("balance: " + bankAccount.getBalance());
+        jakobsBankAccount.addMoney(150.);
 
-        bankAccount.withdrawMoney(400.);
+        System.out.println("balance: " + jakobsBankAccount.getBalance());
 
-        System.out.println("balance: " + bankAccount.getBalance());
+        try {
+            jakobsBankAccount.withdrawMoney(400.);
+        } catch (YouHaveNoMoneyException e) {
+            e.printStackTrace();
+//            uncomment next line, if you want to program to terminate
+//            throw new RuntimeException();
+        }
 
+        System.out.println("balance: " + jakobsBankAccount.getBalance());
     }
-
 }
+
+

@@ -1,16 +1,13 @@
-package uebung9;
+package uebung9_ohneReception;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Reception {
+public class Run {
 
-    private Queue<Person> waitList = new LinkedList<>();
-    private Set<Person> file = new TreeSet<>() ;
-
-    private void addToWaitList(Person person){
+/*    private void addToWaitList(Person person){
         if (!waitList.contains(person)) {
             waitList.add(person);
         }
@@ -21,7 +18,7 @@ public class Reception {
         waitList.poll();
         doctor.treatPatient() ;
         file.add(doctor);
-    }
+    }*/
 
 
     public static void main(String[] args) {
@@ -33,22 +30,40 @@ public class Reception {
         Patient p3 = new Patient("clara", 1980, 119);
         Patient p4 = new Patient("bob", 2096, 300);
 
-        Reception reception = new Reception() ;
-        reception.addToWaitList(p1);
-        reception.addToWaitList(p2);
-        reception.addToWaitList(p3);
-        reception.addToWaitList(p4);
+        Queue<Person> waitList = new LinkedList<>();
+        Set<Person> file = new TreeSet<>() ;
 
-        for (Person i : reception.waitList) {
+        Run reception = new Run() ;
+        waitList.add(p1);
+        file.add(p1);
+        waitList.add(p2);
+        file.add(p2);
+        waitList.add(p3);
+        file.add(p3);
+        waitList.add(p4);
+        file.add(p4);
+
+        for (Person i : waitList) {
             System.out.println(i);
         }
 
-        reception.visitDoctor(doc1);
-        reception.visitDoctor(doc2);
-        reception.visitDoctor(doc1);
+        //改reception.visitDoctor(doc1);
+        waitList.poll();
+        doc1.treatPatient() ;
+        file.add(doc1);
+
+        //改reception.visitDoctor(doc2);
+        waitList.poll();
+        doc2.treatPatient() ;
+        file.add(doc2);
+
+        //改reception.visitDoctor(doc1);
+        waitList.poll();
+        doc2.treatPatient() ;
+        file.add(doc1);
 
         System.out.println("\n");
-        for (Person i : reception.waitList) {
+        for (Person i : waitList) {
             System.out.println(i);
         }
 
@@ -68,7 +83,7 @@ public class Reception {
 
 
         System.out.println("\n");
-        for (Person i : reception.file) {
+        for (Person i : file) {
             System.out.println(i);
         }
 

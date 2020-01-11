@@ -1,4 +1,4 @@
-package uebung6;
+package uebung6_2;
 
 public interface Movable {
 

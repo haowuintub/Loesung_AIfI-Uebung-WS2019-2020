@@ -19,8 +19,8 @@ class PersonsCSVReader {
 		List<Person> personList = new ArrayList<>();
 
 		try (
-				// note resources in round brackets, not curly!
-				BufferedReader in = new BufferedReader(new FileReader(inputFile))) {
+			// note resources in round brackets, not curly!
+			BufferedReader in = new BufferedReader(new FileReader(inputFile))) {
 
 			in.readLine(); // skip header
 			String line ;

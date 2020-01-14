@@ -12,7 +12,7 @@ public class TextFileReaderWriter {
 
 	public static void main(String[] args) {
 		File inputFile = new File("src/main/java/uebung12/data/nagelBio.txt"); // Insert Path to Input File Here!
-		File outputFile = new File("src/main/java/uebung12/data/nagelBiocopy.txt"); // Insert Path to Output File Here!
+		File outputFile = new File("src/main/java/uebung12/data/nagelBioCopy.txt"); // Insert Path to Output File Here!
 
 		try (
 				// note resources in round brackets, not curly!
@@ -38,3 +38,7 @@ public class TextFileReaderWriter {
 	}
 
 }
+
+
+
+

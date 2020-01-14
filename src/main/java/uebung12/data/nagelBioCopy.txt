@@ -4,11 +4,11 @@ His research interests include large-scale transportation simulations, modeling 
 
 He is area editor of the journal "Networks and Spatial Economics", a frequent reviewer for a large number of scientific journals, scientific conferences, research proposals, and scholarships, and one of the authors of MATSim (see www.matsim.org).  Also see www.vsp.tu-berlin.de/menue/ueber_uns/team/prof_dr_kai_nagel/.
 
-*********** Dr. Nagel Bio #1 ****************
+*********** Dr. Nagels Bio #1 ****************
 
 Technische Universit�t Berlin looks back over a long and distinguished tradition of teaching and research, starting in 1799 with the Building Academy ("Bauakademie").  The university has about 30000 students, about 400 professors, and a non-professorial academic staff of about 1500, making it the largest technical university in Germany.  The seven Schools of the university offer 50 courses of study from the fields of engineering and natural sciences, economics and business, planning sciences, humanities and the social sciences. The university budget is about 400 million euros, of which approximately 160 million euros come from external funding.
 
-*********** Dr. Nagel Bio #2 ****************
+*********** Dr. Nagels Bio #2 ****************
 
 Kai Nagel, born 1965 in Cologne/Germany.  Education in physics and
 meteorology at the University of Cologne and at the University of
@@ -32,7 +32,7 @@ research funding organizations.
 Research interests:  Large transportation simulations; modeling and
 simulation of socio-economic systems; large-scale computing.
 
-*********** Dr. Nagel Bio #3 ****************
+*********** Dr. Nagels Bio #3 ****************
 
 Kai Nagel is professor for transport systems planning and transport
 telematics at Berlin Institute of Technology (TU Berlin), specializing
@@ -41,7 +41,7 @@ flow.  He has a PhD in Computer Science from the University of
 Cologne; from 1995 to 1999 he was at Los Alamos National Laboratory as
 part of the TRANSIMS team.  He is one of the authors of MATSim.
 
-*********** Dr. Nagel Bio #4 ****************
+*********** Dr. Nagels Bio #4 ****************
 
 Kai Nagel got his Ph.D. in computer science at the University of
 Cologne about "fast microscopic traffic simulations".  From 1995 to
@@ -54,7 +54,7 @@ Berlin). His research interests include: large transportation
 simulations, modeling and simulation of socio-economic systems,
 multi-agent simulations.
 
-*********** Dr. Nagel Bio #5 ****************
+*********** Dr. Nagels Bio #5 ****************
 
 After studying physics and meteorology in Cologne and Paris, Kai Nagel
 got his Ph.D. in computer science at the University of Cologne about
@@ -67,7 +67,7 @@ telematics" at the Berlin Institute of Technology (TU Berlin). His
 research interests include: large transportation simulations, modeling
 and simulation of socio-economic systems, multi-agent simulations.
 
-*********** Dr. Nagel Bio #6 ****************
+*********** Dr. Nagels Bio #6 ****************
 
 Kai Nagel
 
@@ -80,7 +80,7 @@ Ph.D. in Computer Science 1995 University of Cologne
 since 2004 Professor for Transport Systems Planning and Transport
 Telematics, Berlin Institute of Technology (TU Berlin), Germany
 
-*********** Dr. Nagel Bio #7 ****************
+*********** Dr. Nagels Bio #7 ****************
 
 Kai Nagel, geboren 1965 in K�ln/Deutschland, studierte Physik und
 Meteorologie an der Universit�t zu K�ln und an der Universit�t Paris
@@ -98,7 +98,7 @@ Verkehrs- und Maschinenwesen, TU Berlin.
 Forschungsinteressen: Gro�e Verkehrssimulationen; Modellierung und
 Simulation sozio-�konomischer Systeme
 
-*********** Dr. Nagel Bio #8 ****************
+*********** Dr. Nagels Bio #8 ****************
 
 Kai Nagel (Jahrgang 1965) studierte Physik und Meteorologie an den
 Universit�ten zu K�ln und Paris 6.  Nach Forschungsaufenthalten am Los

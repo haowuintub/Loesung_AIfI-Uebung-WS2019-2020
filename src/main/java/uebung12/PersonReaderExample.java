@@ -21,19 +21,23 @@ public class PersonReaderExample {
 	}
 	
 	public static void main(String[] args) {
-		String personsXmlFile = "src/main/java/uebung12/data/persons.xml";
-		PersonsXmlReader xmlParser = new PersonsXmlReader();
-		List<Person> personsXml = xmlParser.readFile(personsXmlFile);
-		System.out.println();
-		System.out.println("xml persons reader: ");
-		printPersonsList(personsXml);
 
+		// Aufgabe 1a) Understand how the PersonsCSVReaderWorks
 		System.out.println();
 		System.out.println("csv persons reader: ");
 		String personsCsvFile = "src/main/java/uebung12/data/persons.csv";
 		PersonsCSVReader csvParser = new PersonsCSVReader();
 		List<Person> personsCsv = csvParser.readFile(personsCsvFile);
 		printPersonsList(personsCsv);
+
+		// Aufgabe 1b) Understand how the PersonsXmlReader works
+//		String personsXmlFile = "src/main/java/uebung12/data/persons.xml";
+//		PersonsXmlReader xmlParser = new PersonsXmlReader();
+//		List<Person> personsXml = xmlParser.readFile(personsXmlFile);
+//		System.out.println();
+//		System.out.println("xml persons reader: ");
+//		printPersonsList(personsXml);
+
 	}
 
 }

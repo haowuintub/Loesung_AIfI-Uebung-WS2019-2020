@@ -1,0 +1,122 @@
+Kai Nagel is full professor for "Transport systems planning and transport telematics" at the Berlin Institute of Technology (TU Berlin), Germany.  He was trained in physics and climate research, and holds a Ph.D. in informatics from University of Cologne, Germany.  He worked at Los Alamos National Laboratory, USA, from 1995 to 1999, at ETH Z�rich from 1999 to 2004, and holds his current post since 2004.  
+
+His research interests include large-scale transportation simulations, modeling and simulation of socio-economic systems, and large-scale computing.  He leads a group of eight Ph.D. students, six of them funded from competetive sources including the German National Science Foundation and the EU.  He has authored more than 100 publications.
+
+He is area editor of the journal "Networks and Spatial Economics", a frequent reviewer for a large number of scientific journals, scientific conferences, research proposals, and scholarships, and one of the authors of MATSim (see www.matsim.org).  Also see www.vsp.tu-berlin.de/menue/ueber_uns/team/prof_dr_kai_nagel/.
+
+*********** Dr. Nagel Bio #1 ****************
+
+Technische Universit�t Berlin looks back over a long and distinguished tradition of teaching and research, starting in 1799 with the Building Academy ("Bauakademie").  The university has about 30000 students, about 400 professors, and a non-professorial academic staff of about 1500, making it the largest technical university in Germany.  The seven Schools of the university offer 50 courses of study from the fields of engineering and natural sciences, economics and business, planning sciences, humanities and the social sciences. The university budget is about 400 million euros, of which approximately 160 million euros come from external funding.
+
+*********** Dr. Nagel Bio #2 ****************
+
+Kai Nagel, born 1965 in Cologne/Germany.  Education in physics and
+meteorology at the University of Cologne and at the University of
+Paris 6 (Jussieu).  1991-93 research assistant of A. Bachem at the
+Center for Parallel Computing in Cologne.  1993-94 research associate
+at Los Alamos National Laboratory, and visiting scientist at Santa Fe
+Institute and Brookhaven National Laboratory. 1994 Ph.D. in computer
+science.  1995-1999 Los Alamos National Laboratory, latest position
+"team leader research team".  1999-2004 assistant professor for
+Computer Science at ETH Zurich at the Institute for Scientific
+Computing.  Since April 2004 full professor for "Transport systems
+planning and transport telematics" at the Berlin Institute of
+Technology (TU Berlin).
+
+100+ publications, 1000+ citations, area editor for "simulation" of
+journal "Networks and Spatial Economics", area editor for "traffic and
+environmental systems" of journal "Advances in Complex Systems",
+editor of several special issues, referee of 30+ journals and many
+research funding organizations.
+
+Research interests:  Large transportation simulations; modeling and
+simulation of socio-economic systems; large-scale computing.
+
+*********** Dr. Nagel Bio #3 ****************
+
+Kai Nagel is professor for transport systems planning and transport
+telematics at Berlin Institute of Technology (TU Berlin), specializing
+in modelling and large-scale simulation of travel behavior and traffic
+flow.  He has a PhD in Computer Science from the University of
+Cologne; from 1995 to 1999 he was at Los Alamos National Laboratory as
+part of the TRANSIMS team.  He is one of the authors of MATSim.
+
+*********** Dr. Nagel Bio #4 ****************
+
+Kai Nagel got his Ph.D. in computer science at the University of
+Cologne about "fast microscopic traffic simulations".  From 1995 to
+1999 he was at Los Alamos National Laboratory as part of the
+"TRANSIMS" team.  1999-2004 he was assistant professor for Computer
+Science at ETH Zurich at the Institute for Scientific Computing.
+Since 2004 he is full professor for "Transport systems planning and
+transport telematics" at Berlin Institute of Technology (TU
+Berlin). His research interests include: large transportation
+simulations, modeling and simulation of socio-economic systems,
+multi-agent simulations.
+
+*********** Dr. Nagel Bio #5 ****************
+
+After studying physics and meteorology in Cologne and Paris, Kai Nagel
+got his Ph.D. in computer science at the University of Cologne about
+"fast microscopic traffic simulations".  From 1995 to 1999 he was at
+Los Alamos National Laboratory as part of the "TRANSIMS" team.
+1999-2004 he was assistant professor for Computer Science at ETH
+Zurich at the Institute for Scientific Computing.  Since 2004 he is
+full professor for "Transport systems planning and transport
+telematics" at the Berlin Institute of Technology (TU Berlin). His
+research interests include: large transportation simulations, modeling
+and simulation of socio-economic systems, multi-agent simulations.
+
+*********** Dr. Nagel Bio #6 ****************
+
+Kai Nagel
+
+Ph.D. in Computer Science 1995 University of Cologne
+
+1995-1999 Los Alamos National Laboratory ("TRANSIMS")
+
+1999-2004 Assistant Professor Computer Science, ETH Zurich, Switzerland
+
+since 2004 Professor for Transport Systems Planning and Transport
+Telematics, Berlin Institute of Technology (TU Berlin), Germany
+
+*********** Dr. Nagel Bio #7 ****************
+
+Kai Nagel, geboren 1965 in K�ln/Deutschland, studierte Physik und
+Meteorologie an der Universit�t zu K�ln und an der Universit�t Paris
+6.  1991 wissenschaftlicher Mitarbeiter von A. Bachem am Zentrum f�r
+Paralleles Rechnen in K�ln; 1993/1994: Forschungsaufenthalte am Los
+Alamos National Laboratory, am Santa Fe Institute, und am Brookhaven
+National Laboratory (alle USA).  1994 Promotion in Informatik in K�ln.
+1995-1999 Los Alamos National Laboratory, in letzter Position als
+``Research Team Leader''. 1999-2004 Assistenzprofessor in Informatik
+an der ETH Z�rich am Institut f�r wissenschaftliches Rechnen.  Seit
+2004 Fachgebietsleiter/Professor f�r "Verkehrssystemplanung und
+Verkehrstelematik", Institut f�r Land- und Seeverkehr, Fakult�t f�r
+Verkehrs- und Maschinenwesen, TU Berlin.
+
+Forschungsinteressen: Gro�e Verkehrssimulationen; Modellierung und
+Simulation sozio-�konomischer Systeme
+
+*********** Dr. Nagel Bio #8 ****************
+
+Kai Nagel (Jahrgang 1965) studierte Physik und Meteorologie an den
+Universit�ten zu K�ln und Paris 6.  Nach Forschungsaufenthalten am Los
+Alamos National Laboratory, am Santa Fe Institute, und am Brookhaven
+National Laboratory promovierte er an der Universit�t zu K�ln �ber
+schnelle mikroskopische Verkehrssimulationen.  Nach vierj�hriger
+Mitarbeit am TRANSIMS Projekt in Los Alamos war er von 1999 bis 2004
+Assistenzprofessor f�r Informatik (wissenschaftliches Rechnen) an der
+ETHZ Z�rich.  Seit 2004 ist er Fachgebietsleiter/Professor f�r
+"Verkehrssystemplanung und Verkehrstelematik", Institut f�r Land- und
+Seeverkehr, Fakult�t f�r Verkehrs- und Maschinenwesen, TU Berlin.  
+
+Die Arbeiten der letzten 10 Jahre von ihm und seiner Arbeitsgruppe
+konzentrierten sich auf die Weiterentwicklung von MATSim (Multi Agent
+Transport Simulation, www.matsim.org).  In dem Projekt geht es darum,
+regionale Verkehrssysteme mikroskopisch, also durch explizite
+Ber�cksichtigung u.a. der Reisenden, zu modellieren und zu simulieren;
+dies ist durch die rasanten Entwicklungen bei Computern und Daten
+m�glich geworden.  Wesentliche Schwerpunkte der letzten Jahre waren
+die explizite gro�r�umige Simulation von Taxidiensten sowie die
+Integration von Modellen f�r die Berechnung von Emissionen und L�rm.

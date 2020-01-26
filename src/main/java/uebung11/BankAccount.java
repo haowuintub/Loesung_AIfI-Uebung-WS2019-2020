@@ -12,7 +12,12 @@ class BankAccount {
         this.balance += money;
     }
 
-    void withdrawMoney(double money) {
+    void withdrawMoney(double money) throws YouHaveNoMoneyException {
+
+        if (money > balance) {
+            throw new YouHaveNoMoneyException();
+        }
+
         this.balance -= money;
     }
 
@@ -20,6 +25,6 @@ class BankAccount {
         return balance ;
     }
 
-
-
 }
+
+

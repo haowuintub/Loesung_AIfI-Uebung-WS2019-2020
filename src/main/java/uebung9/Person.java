@@ -4,13 +4,10 @@ class Person implements Comparable<Person>{
     private String name ;
     private int birthYear;
 
-    Person(String name, int birthYear)
-
-    {
+    Person(String name, int birthYear)    {
         this.name = name;
         this.birthYear = birthYear;
     }
-
 
     String getName() {
         return name;
@@ -32,7 +29,6 @@ class Person implements Comparable<Person>{
     public String toString() {
         return name + ", " + birthYear;
     }
-
 
     @Override
     public boolean equals(Object o) {

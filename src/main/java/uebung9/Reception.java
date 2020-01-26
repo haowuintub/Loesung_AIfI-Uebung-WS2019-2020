@@ -52,30 +52,12 @@ public class Reception {
             System.out.println(i);
         }
 
-
-
-
-/*        System.out.println("\n");
-        for (Person i : reception.file) {
-            System.out.println(i);
-        }*/
-
-
-        System.out.println("\n");
         System.out.println(doc1.getMoneyInBank());
         doc1.paySalary();
         System.out.println(doc1.getMoneyInBank());
 
-
-        System.out.println("\n");
         for (Person i : reception.file) {
             System.out.println(i);
         }
-
-
-
     }
-
-
-
 }

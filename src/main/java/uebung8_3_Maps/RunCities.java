@@ -18,21 +18,21 @@ public class RunCities {
         City c11 = new City("Madrid", "Spain", 3200000);
 
 
-        Map<String, City> cityList = new HashMap<>();
-        cityList.put("Hamburg", c1);
-        cityList.put("Birmingham", c2);
-        cityList.put("Milan", c3);
-        cityList.put("Rome", c4);
-        cityList.put("Paris", c5);
-        cityList.put("Berlin", c6);
-        cityList.put("Cologne", c7);
-        cityList.put("Munich", c8);
-        cityList.put("London", c9);
-        cityList.put("Barcelona", c10);
-        cityList.put("Madrid", c11);
+        Map<String, City> cityMap = new HashMap<>();
+        cityMap.put("Hamburg", c1);
+        cityMap.put("Birmingham", c2);
+        cityMap.put("Milan", c3);
+        cityMap.put("Rome", c4);
+        cityMap.put("Paris", c5);
+        cityMap.put("Berlin", c6);
+        cityMap.put("Cologne", c7);
+        cityMap.put("Munich", c8);
+        cityMap.put("London", c9);
+        cityMap.put("Barcelona", c10);
+        cityMap.put("Madrid", c11);
 
         System.out.println("\nUnsorted");
-        for (Map.Entry<String, City> entry : cityList.entrySet()) {
+        for (Map.Entry<String, City> entry : cityMap.entrySet()) {
             System.out.println("K: " + entry.getKey() + ", V: " + entry.getValue());
         }
 
@@ -41,29 +41,29 @@ public class RunCities {
         System.out.println("\nRemove German Cities");
 
         // 不能移除德国城市
-          for (Map.Entry<String, City> entry : cityList.entrySet()) {
+          for (Map.Entry<String, City> entry : cityMap.entrySet()) {
             if (entry.getValue().getCountry().equals("Germany")) {
-                cityList.remove(entry);
+                cityMap.remove(entry);
             }
         }
 
 */
-/*        for (String str : cityList.keySet()) {
+/*        for (String str : cityMap.keySet()) {
             if (str.equals("Germany")) {
-                cityList.remove(str);
+                cityMap.remove(str);
             }
         }*//*
 
 
 */
-/*        for (City city : cityList.values()) {
+/*        for (City city : cityMap.values()) {
             if (city.getCountry().equals("Germany")) {
-                cityList.remove(city);
+                cityMap.remove(city);
             }
         }*//*
 
 
-        for (Map.Entry<String, City> entry : cityList.entrySet()) {
+        for (Map.Entry<String, City> entry : cityMap.entrySet()) {
             System.out.println("K: " + entry.getKey() + ", V: " + entry.getValue());
         }
 */
@@ -71,7 +71,7 @@ public class RunCities {
 
         System.out.println("\nRemove German Cities");
 /*        // 不能移除德国城市，可能只能移除Key
-        for(Iterator<String> it = cityList.keySet().iterator(); it.hasNext();) {
+        for(Iterator<String> it = cityMap.keySet().iterator(); it.hasNext();) {
             String str = it.next();
             if (str.equals("Germany")) {
                 it.remove();
@@ -79,22 +79,22 @@ public class RunCities {
         }*/
 
           // 可以移除德国城市
-        for(Iterator<City> it = cityList.values().iterator(); it.hasNext();) {
+        for(Iterator<City> it = cityMap.values().iterator(); it.hasNext();) {
             City city = it.next();
             if (city.getCountry().equals("Germany")) {
                 it.remove();
             }
         }
 
-/*        for(Iterator<Map.Entry<String, City>> it = cityList.entrySet().iterator(); it.hasNext();) {
+/*        for(Iterator<Map.Entry<String, City>> it = cityMap.entrySet().iterator(); it.hasNext();) {
             Map.Entry mapEntry = it.next();
-              if (mapEntry.getValue().getCountry().equals("Germany")) {
-//            if (mapEntry.getKey().equals("Germany")) {
+//              if (mapEntry.getValue().getCountry().equals("Germany")) {
+            if (mapEntry.getKey().equals("Germany")) {
                 it.remove();
             }
         }*/
 
-        for (Map.Entry<String, City> entry : cityList.entrySet()) {
+        for (Map.Entry<String, City> entry : cityMap.entrySet()) {
             System.out.println("K: " + entry.getKey() + ", V: " + entry.getValue());
         }
 

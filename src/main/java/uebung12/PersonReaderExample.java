@@ -13,7 +13,7 @@ public class PersonReaderExample {
 			System.out.println("Person Id: " + p.getId());
 			System.out.println("  Name: " + p.getName());
 			System.out.println("  Vornamen: ");
-			for (String s : p.getVornamen()){
+			for (String s : p.getVornamen()){//数组里套数组
 				System.out.println("    " + s);
 			}
 			System.out.println("  Alter " + p.getAlter());
@@ -22,21 +22,22 @@ public class PersonReaderExample {
 	
 	public static void main(String[] args) {
 
-		// Aufgabe 1a) Understand how the PersonsCSVReaderWorks
-		System.out.println();
+/*		// Aufgabe 1a) Understand how the PersonsCSVReaderWorks
+		System.out.println();//换行
 		System.out.println("csv persons reader: ");
 		String personsCsvFile = "src/main/java/uebung12/data/persons.csv";
 		PersonsCSVReader csvParser = new PersonsCSVReader();
 		List<Person> personsCsv = csvParser.readFile(personsCsvFile);
-		printPersonsList(personsCsv);
+		printPersonsList(personsCsv);*/
+
 
 		// Aufgabe 1b) Understand how the PersonsXmlReader works
-//		String personsXmlFile = "src/main/java/uebung12/data/persons.xml";
-//		PersonsXmlReader xmlParser = new PersonsXmlReader();
-//		List<Person> personsXml = xmlParser.readFile(personsXmlFile);
-//		System.out.println();
-//		System.out.println("xml persons reader: ");
-//		printPersonsList(personsXml);
+		String personsXmlFile = "src/main/java/uebung12/data/persons.xml";
+		PersonsXmlReader xmlParser = new PersonsXmlReader();
+		List<Person> personsXml = xmlParser.readFile(personsXmlFile);
+		System.out.println();//换行
+		System.out.println("xml persons reader: ");
+		printPersonsList(personsXml);
 
 	}
 

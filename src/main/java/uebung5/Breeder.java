@@ -8,7 +8,10 @@ import java.awt.Color;
 
 public class Breeder extends DisposableBug {
 
+    int age ;
+
     Breeder() {
+        age = 0 ;
         this.setColor(Color.RED);
     }
 
@@ -32,4 +35,12 @@ public class Breeder extends DisposableBug {
             flower.putSelfInGrid(gr, loc);
         }
     }
+
+
+    @Override
+    public String toString() {
+        return getClass().getName() + "[" + ",age=" + age + /*",location=" + location + ",direction="
+                + direction + ",color=" + color +*/ "]";
+    }
+
 }

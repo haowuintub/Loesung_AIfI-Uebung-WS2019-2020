@@ -20,8 +20,8 @@ public class TextFileReaderWriter {
 			while ((line = in.readLine()) != null) {
 
 				if (line.contains("===")) {
-					bioCount++;
-					line = "*********** Dr. Nagels Bio #" + bioCount + " ****************";
+//					bioCount++;
+					line = "*********** Dr. Nagels Bio #" + ++bioCount + " ****************";
 				}
 
 				out.write(line + "\n");

@@ -24,7 +24,7 @@ class BabyBug extends DisposableBug {
 
         if (flowersEaten >= 3) {
             Location loc = this.getLocation() ;
-            Grid<Actor> gr = this.getGrid() ;
+            Grid gr = this.getGrid() ;
             this.removeSelfFromGrid();
             if (Math.random() <= 0.5) {
                 DisposableBug bug = new DisposableBug();

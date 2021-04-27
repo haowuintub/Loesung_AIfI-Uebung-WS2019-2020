@@ -1,4 +1,4 @@
-Kai Nagel is full professor for "Transport systems planning and transport telematics" at the Berlin Institute of Technology (TU Berlin), Germany.  He was trained in physics and climate research, and holds a Ph.D. in informatics from University of Cologne, Germany.  He worked at Los Alamos National Laboratory, USA, from 1995 to 1999, at ETH Z?rich from 1999 to 2004, and holds his current post since 2004.  
+Kai Nagel is full professor for "Transport systems planning and transport telematics" at the Berlin Institute of Technology (TU Berlin), Germany.  He was trained in physics and climate research, and holds a Ph.D. in informatics from University of Cologne, Germany.  He worked at Los Alamos National Laboratory, USA, from 1995 to 1999, at ETH Z�rich from 1999 to 2004, and holds his current post since 2004.  
 
 His research interests include large-scale transportation simulations, modeling and simulation of socio-economic systems, and large-scale computing.  He leads a group of eight Ph.D. students, six of them funded from competetive sources including the German National Science Foundation and the EU.  He has authored more than 100 publications.
 
@@ -6,7 +6,7 @@ He is area editor of the journal "Networks and Spatial Economics", a frequent re
 
 *********** Dr. Nagels Bio #1 ****************
 
-Technische Universit?t Berlin looks back over a long and distinguished tradition of teaching and research, starting in 1799 with the Building Academy ("Bauakademie").  The university has about 30000 students, about 400 professors, and a non-professorial academic staff of about 1500, making it the largest technical university in Germany.  The seven Schools of the university offer 50 courses of study from the fields of engineering and natural sciences, economics and business, planning sciences, humanities and the social sciences. The university budget is about 400 million euros, of which approximately 160 million euros come from external funding.
+Technische Universit�t Berlin looks back over a long and distinguished tradition of teaching and research, starting in 1799 with the Building Academy ("Bauakademie").  The university has about 30000 students, about 400 professors, and a non-professorial academic staff of about 1500, making it the largest technical university in Germany.  The seven Schools of the university offer 50 courses of study from the fields of engineering and natural sciences, economics and business, planning sciences, humanities and the social sciences. The university budget is about 400 million euros, of which approximately 160 million euros come from external funding.
 
 *********** Dr. Nagels Bio #2 ****************
 
@@ -82,41 +82,41 @@ Telematics, Berlin Institute of Technology (TU Berlin), Germany
 
 *********** Dr. Nagels Bio #7 ****************
 
-Kai Nagel, geboren 1965 in K?ln/Deutschland, studierte Physik und
-Meteorologie an der Universit?t zu K?ln und an der Universit?t Paris
-6.  1991 wissenschaftlicher Mitarbeiter von A. Bachem am Zentrum f?r
-Paralleles Rechnen in K?ln; 1993/1994: Forschungsaufenthalte am Los
+Kai Nagel, geboren 1965 in K�ln/Deutschland, studierte Physik und
+Meteorologie an der Universit�t zu K�ln und an der Universit�t Paris
+6.  1991 wissenschaftlicher Mitarbeiter von A. Bachem am Zentrum f�r
+Paralleles Rechnen in K�ln; 1993/1994: Forschungsaufenthalte am Los
 Alamos National Laboratory, am Santa Fe Institute, und am Brookhaven
-National Laboratory (alle USA).  1994 Promotion in Informatik in K?ln.
+National Laboratory (alle USA).  1994 Promotion in Informatik in K�ln.
 1995-1999 Los Alamos National Laboratory, in letzter Position als
 ``Research Team Leader''. 1999-2004 Assistenzprofessor in Informatik
-an der ETH Z?rich am Institut f?r wissenschaftliches Rechnen.  Seit
-2004 Fachgebietsleiter/Professor f?r "Verkehrssystemplanung und
-Verkehrstelematik", Institut f?r Land- und Seeverkehr, Fakult?t f?r
+an der ETH Z�rich am Institut f�r wissenschaftliches Rechnen.  Seit
+2004 Fachgebietsleiter/Professor f�r "Verkehrssystemplanung und
+Verkehrstelematik", Institut f�r Land- und Seeverkehr, Fakult�t f�r
 Verkehrs- und Maschinenwesen, TU Berlin.
 
-Forschungsinteressen: Gro?e Verkehrssimulationen; Modellierung und
-Simulation sozio-?konomischer Systeme
+Forschungsinteressen: Gro�e Verkehrssimulationen; Modellierung und
+Simulation sozio-�konomischer Systeme
 
 *********** Dr. Nagels Bio #8 ****************
 
 Kai Nagel (Jahrgang 1965) studierte Physik und Meteorologie an den
-Universit?ten zu K?ln und Paris 6.  Nach Forschungsaufenthalten am Los
+Universit�ten zu K�ln und Paris 6.  Nach Forschungsaufenthalten am Los
 Alamos National Laboratory, am Santa Fe Institute, und am Brookhaven
-National Laboratory promovierte er an der Universit?t zu K?ln ?ber
-schnelle mikroskopische Verkehrssimulationen.  Nach vierj?hriger
+National Laboratory promovierte er an der Universit�t zu K�ln �ber
+schnelle mikroskopische Verkehrssimulationen.  Nach vierj�hriger
 Mitarbeit am TRANSIMS Projekt in Los Alamos war er von 1999 bis 2004
-Assistenzprofessor f?r Informatik (wissenschaftliches Rechnen) an der
-ETHZ Z?rich.  Seit 2004 ist er Fachgebietsleiter/Professor f?r
-"Verkehrssystemplanung und Verkehrstelematik", Institut f?r Land- und
-Seeverkehr, Fakult?t f?r Verkehrs- und Maschinenwesen, TU Berlin.  
+Assistenzprofessor f�r Informatik (wissenschaftliches Rechnen) an der
+ETHZ Z�rich.  Seit 2004 ist er Fachgebietsleiter/Professor f�r
+"Verkehrssystemplanung und Verkehrstelematik", Institut f�r Land- und
+Seeverkehr, Fakult�t f�r Verkehrs- und Maschinenwesen, TU Berlin.  
 
 Die Arbeiten der letzten 10 Jahre von ihm und seiner Arbeitsgruppe
 konzentrierten sich auf die Weiterentwicklung von MATSim (Multi Agent
 Transport Simulation, www.matsim.org).  In dem Projekt geht es darum,
 regionale Verkehrssysteme mikroskopisch, also durch explizite
-Ber?cksichtigung u.a. der Reisenden, zu modellieren und zu simulieren;
+Ber�cksichtigung u.a. der Reisenden, zu modellieren und zu simulieren;
 dies ist durch die rasanten Entwicklungen bei Computern und Daten
-m?glich geworden.  Wesentliche Schwerpunkte der letzten Jahre waren
-die explizite gro?r?umige Simulation von Taxidiensten sowie die
-Integration von Modellen f?r die Berechnung von Emissionen und L?rm.
+m�glich geworden.  Wesentliche Schwerpunkte der letzten Jahre waren
+die explizite gro�r�umige Simulation von Taxidiensten sowie die
+Integration von Modellen f�r die Berechnung von Emissionen und L�rm.

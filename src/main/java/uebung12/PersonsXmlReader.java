@@ -23,7 +23,7 @@ class PersonsXmlReader {
 			// factory.setXY(...) ;
 			XMLStreamReader in = factory.createXMLStreamReader(stream);
 
-			Person p = null;
+			Person p = null;//必须要用null
 			while (in.hasNext()) {
 				int eventTypeAsInt = in.next(); // in.next() : move on to next element
 				System.out.println(" eventType: " + getEventTypeString(eventTypeAsInt));
